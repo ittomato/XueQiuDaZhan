@@ -2585,6 +2585,12 @@
     },
     "JiFen": {
       "__id__": 13
+    },
+    "audioPass": {
+      "__uuid__": "a4938ef5-f6ec-4570-8171-2a79e410e0de"
+    },
+    "audioFail": {
+      "__uuid__": "4a62fea3-e9d4-4ac3-82c9-7f8862a37d9e"
     }
   }
 ]

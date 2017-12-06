@@ -45,6 +45,15 @@ export default class NewClass extends cc.Component {
 
     isLoading: boolean = false;
 
+    @property({
+        url: cc.AudioClip
+    })
+    audioPass: string = '';
+    @property({
+        url: cc.AudioClip
+    })
+    audioFail: string = '';
+
     // onLoad () {},
 
     start() {
@@ -76,6 +85,7 @@ export default class NewClass extends cc.Component {
         this.isLoading = true;
         let selectText = event.target.getComponent(cc.Label).string;
         if (selectText == this.currentAnswerOk) {
+            cc.audioEngine.play(this.audioPass, false, 1);
             cc.log("回答正确");
             this.currentJiFen += 20;
 
@@ -90,6 +100,7 @@ export default class NewClass extends cc.Component {
 
         } else {
             cc.log("回答错误");
+            cc.audioEngine.play(this.audioFail, false, 1);
             if (this.currentQuestion == 5) return false;
             let action_q1 = cc.scaleTo(1, 2, 2);
             let action_Clear = cc.scaleTo(1, 1, 1);
