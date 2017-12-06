@@ -139,6 +139,7 @@ export default class NewClass extends cc.Component {
                 this.loadQuestion(this.currentQuestion);
             } else {
                 cc.log("游戏完成");
+                cc.director.loadScene("EndWin");
             }
 
         }, this)
