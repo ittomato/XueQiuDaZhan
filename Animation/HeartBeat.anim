@@ -1,0 +1,237 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "HeartBeat",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 2.3333333333333335,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 2,
+  "curveData": {
+    "paths": {
+      "Heart1": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                0,
+                0
+              ]
+            },
+            {
+              "frame": 0.6666666666666666,
+              "value": [
+                180,
+                66
+              ]
+            },
+            {
+              "frame": 1.6666666666666667,
+              "value": [
+                180,
+                66
+              ]
+            },
+            {
+              "frame": 2,
+              "value": [
+                204,
+                79
+              ]
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.6666666666666666,
+              "value": 1.5
+            },
+            {
+              "frame": 1,
+              "value": 1
+            },
+            {
+              "frame": 1.3333333333333333,
+              "value": 1.5
+            },
+            {
+              "frame": 1.6666666666666667,
+              "value": 1
+            },
+            {
+              "frame": 2,
+              "value": 1.6
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.6666666666666666,
+              "value": 1.5
+            },
+            {
+              "frame": 1,
+              "value": 1
+            },
+            {
+              "frame": 1.3333333333333333,
+              "value": 1.5
+            },
+            {
+              "frame": 1.6666666666666667,
+              "value": 1
+            },
+            {
+              "frame": 2,
+              "value": 1.6
+            }
+          ]
+        }
+      },
+      "Heart2": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                -41,
+                -41
+              ]
+            },
+            {
+              "frame": 1,
+              "value": [
+                141,
+                122
+              ]
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 1,
+              "value": 1
+            },
+            {
+              "frame": 1.3333333333333333,
+              "value": 0.5
+            },
+            {
+              "frame": 1.6666666666666667,
+              "value": 1
+            },
+            {
+              "frame": 2,
+              "value": 0.5
+            },
+            {
+              "frame": 2.3333333333333335,
+              "value": 1
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 1,
+              "value": 1
+            },
+            {
+              "frame": 1.3333333333333333,
+              "value": 0.5
+            },
+            {
+              "frame": 1.6666666666666667,
+              "value": 1
+            },
+            {
+              "frame": 2,
+              "value": 0.5
+            },
+            {
+              "frame": 2.3333333333333335,
+              "value": 1
+            }
+          ]
+        }
+      },
+      "Heart3": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                26,
+                -49
+              ]
+            },
+            {
+              "frame": 1.3333333333333333,
+              "value": [
+                105,
+                75
+              ]
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 0.8
+            },
+            {
+              "frame": 1.3333333333333333,
+              "value": 0.6
+            },
+            {
+              "frame": 1.6666666666666667,
+              "value": 1
+            },
+            {
+              "frame": 2,
+              "value": 0.6
+            },
+            {
+              "frame": 2.3333333333333335,
+              "value": 1
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 0.8
+            },
+            {
+              "frame": 1.3333333333333333,
+              "value": 0.6
+            },
+            {
+              "frame": 1.6666666666666667,
+              "value": 1
+            },
+            {
+              "frame": 2,
+              "value": 0.6
+            },
+            {
+              "frame": 2.3333333333333335,
+              "value": 1
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}
