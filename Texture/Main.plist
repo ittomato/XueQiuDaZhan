@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>frames</key>
+        <dict>
+            <key>an niu0001.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1924,158},{154,94}}</string>
+                <key>offset</key>
+                <string>{0,-2}</string>
+                <key>rotated</key>
+                <true/>
+                <key>sourceColorRect</key>
+                <string>{{3,5},{154,94}}</string>
+                <key>sourceSize</key>
+                <string>{160,100}</string>
+            </dict>
+            <key>an niu0002.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1924,2},{154,94}}</string>
+                <key>offset</key>
+                <string>{0,-2}</string>
+                <key>rotated</key>
+                <true/>
+                <key>sourceColorRect</key>
+                <string>{{3,5},{154,94}}</string>
+                <key>sourceSize</key>
+                <string>{160,100}</string>
+            </dict>
+            <key>biao ti0001.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{736,1084},{770,258}}</string>
+                <key>offset</key>
+                <string>{-1,-8}</string>
+                <key>rotated</key>
+                <true/>
+                <key>sourceColorRect</key>
+                <string>{{14,49},{770,258}}</string>
+                <key>sourceSize</key>
+                <string>{800,340}</string>
+            </dict>
+            <key>changjing 1-3.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{2,2},{1920,1080}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{1920,1080}}</string>
+                <key>sourceSize</key>
+                <string>{1920,1080}</string>
+            </dict>
+            <key>ti  shi.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{2,1084},{812,732}}</string>
+                <key>offset</key>
+                <string>{-1,1}</string>
+                <key>rotated</key>
+                <true/>
+                <key>sourceColorRect</key>
+                <string>{{3,3},{812,732}}</string>
+                <key>sourceSize</key>
+                <string>{820,740}</string>
+            </dict>
+            <key>xue kuai.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1924,450},{42,42}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{42,42}}</string>
+                <key>sourceSize</key>
+                <string>{42,42}</string>
+            </dict>
+            <key>yin yue0001.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1924,382},{92,66}}</string>
+                <key>offset</key>
+                <string>{0,1}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{4,1},{92,66}}</string>
+                <key>sourceSize</key>
+                <string>{100,70}</string>
+            </dict>
+            <key>yin yue0002.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1924,314},{92,66}}</string>
+                <key>offset</key>
+                <string>{0,1}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{4,1},{92,66}}</string>
+                <key>sourceSize</key>
+                <string>{100,70}</string>
+            </dict>
+        </dict>
+        <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>2</integer>
+            <key>realTextureFileName</key>
+            <string>Main.png</string>
+            <key>size</key>
+            <string>{2048,2048}</string>
+            <key>smartupdate</key>
+            <string>$TexturePacker:SmartUpdate:aac276beb4f78a5899e22030959f38e5:1/1$</string>
+            <key>textureFileName</key>
+            <string>Main.png</string>
+        </dict>
+    </dict>
+</plist>

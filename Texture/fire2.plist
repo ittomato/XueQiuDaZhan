@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>frames</key>
+        <dict>
+            <key>huo qiu 20001.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{2,2},{110,160}}</string>
+                <key>offset</key>
+                <string>{0,-5}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{5,10},{110,160}}</string>
+                <key>sourceSize</key>
+                <string>{120,170}</string>
+            </dict>
+            <key>huo qiu 20002.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{2,164},{108,160}}</string>
+                <key>offset</key>
+                <string>{1,-5}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{7,10},{108,160}}</string>
+                <key>sourceSize</key>
+                <string>{120,170}</string>
+            </dict>
+            <key>huo qiu 20003.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{2,326},{112,154}}</string>
+                <key>offset</key>
+                <string>{1,-8}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{5,16},{112,154}}</string>
+                <key>sourceSize</key>
+                <string>{120,170}</string>
+            </dict>
+            <key>huo qiu 20004.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{112,164},{118,142}}</string>
+                <key>offset</key>
+                <string>{-1,-14}</string>
+                <key>rotated</key>
+                <true/>
+                <key>sourceColorRect</key>
+                <string>{{0,28},{118,142}}</string>
+                <key>sourceSize</key>
+                <string>{120,170}</string>
+            </dict>
+            <key>huo qiu 20005.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{116,284},{108,150}}</string>
+                <key>offset</key>
+                <string>{0,-10}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{6,20},{108,150}}</string>
+                <key>sourceSize</key>
+                <string>{120,170}</string>
+            </dict>
+            <key>huo qiu 20006.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{114,2},{112,158}}</string>
+                <key>offset</key>
+                <string>{-1,-6}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{3,12},{112,158}}</string>
+                <key>sourceSize</key>
+                <string>{120,170}</string>
+            </dict>
+        </dict>
+        <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>2</integer>
+            <key>realTextureFileName</key>
+            <string>fire2.png</string>
+            <key>size</key>
+            <string>{256,512}</string>
+            <key>smartupdate</key>
+            <string>$TexturePacker:SmartUpdate:19c2f2d4060bbacc9a3bacadf0f647e0:1/1$</string>
+            <key>textureFileName</key>
+            <string>fire2.png</string>
+        </dict>
+    </dict>
+</plist>
