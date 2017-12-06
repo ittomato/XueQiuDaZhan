@@ -9,6 +9,8 @@ export default class NewClass extends cc.Component {
     @property(cc.Node)
     btnStart: cc.Node = null;
 
+    @property(cc.Node)
+    Title: cc.Node = null;
     onLoad() {
         // cc.director.getPhysicsManager().enabled = true;
         cc.director.setDisplayStats(false);
@@ -23,6 +25,7 @@ export default class NewClass extends cc.Component {
             cc.director.loadScene("Game");
         } else {
             this.text.active = true;
+            this.Title.active = false;
         }
     }
     onDestroy() {
