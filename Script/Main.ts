@@ -11,9 +11,14 @@ export default class NewClass extends cc.Component {
 
     @property(cc.Node)
     Title: cc.Node = null;
+
+
+    @property(cc.Node)
+    btnMusic: cc.Node = null;
     onLoad() {
         // cc.director.getPhysicsManager().enabled = true;
         cc.director.setDisplayStats(false);
+        cc.game.addPersistRootNode(this.btnMusic);
     }
     start() {
         this.btnStart.on("touchstart", this.onStartGame, this);

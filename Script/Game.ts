@@ -107,9 +107,6 @@ export default class NewClass extends cc.Component {
                 this.FenNu.active = false;
 
             }, this)
-
-
-
         }
     }
     //设置生命状态
@@ -117,6 +114,7 @@ export default class NewClass extends cc.Component {
         this.LifeState.spriteFrame = this.LifeAtlas.getSpriteFrame(state.toString());
         if (state == 3) {
             cc.log("游戏失败");
+            cc.director.loadScene("EndFail");
             return;
         }
         this.isLoading = false;
