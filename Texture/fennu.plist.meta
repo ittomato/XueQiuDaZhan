@@ -1,0 +1,56 @@
+{
+  "ver": "1.2.4",
+  "uuid": "dec8a2bb-2334-416c-847f-9e20f2e39f21",
+  "rawTextureUuid": "f2849a60-27c1-42b6-85e1-2dd1cfb7d14c",
+  "size": {
+    "width": 128,
+    "height": 128
+  },
+  "type": "Texture Packer",
+  "subMetas": {
+    "fen nu0001.png": {
+      "ver": "1.0.3",
+      "uuid": "bae52beb-d82c-492e-9b7f-50eeef039fdd",
+      "rawTextureUuid": "f2849a60-27c1-42b6-85e1-2dd1cfb7d14c",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -1,
+      "offsetY": 1,
+      "trimX": 2,
+      "trimY": 2,
+      "width": 68,
+      "height": 74,
+      "rawWidth": 100,
+      "rawHeight": 102,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "spriteType": "normal",
+      "subMetas": {}
+    },
+    "fen nu0002.png": {
+      "ver": "1.0.3",
+      "uuid": "2bf821f4-fa85-4c27-a95f-885a2c8247a1",
+      "rawTextureUuid": "f2849a60-27c1-42b6-85e1-2dd1cfb7d14c",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -1,
+      "offsetY": 0,
+      "trimX": 72,
+      "trimY": 2,
+      "width": 54,
+      "height": 58,
+      "rawWidth": 100,
+      "rawHeight": 102,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "spriteType": "normal",
+      "subMetas": {}
+    }
+  }
+}
