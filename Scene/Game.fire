@@ -82,6 +82,9 @@
       },
       {
         "__id__": 66
+      },
+      {
+        "__id__": 67
       }
     ],
     "_prefab": null,
@@ -2591,6 +2594,18 @@
     },
     "audioFail": {
       "__uuid__": "4a62fea3-e9d4-4ac3-82c9-7f8862a37d9e"
+    },
+    "global": {
+      "__id__": 67
     }
+  },
+  {
+    "__type__": "ba334+LD31PjobBbPIqifuo",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 2
+    },
+    "_enabled": true
   }
 ]

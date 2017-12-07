@@ -1,3 +1,5 @@
+import { Global } from "./Global";
+
 const { ccclass, property } = cc._decorator;
 
 @ccclass
@@ -12,9 +14,12 @@ export default class NewClass extends cc.Component {
     @property(cc.Node)
     Title: cc.Node = null;
 
-
     @property(cc.Node)
     btnMusic: cc.Node = null;
+
+    @property(Global)
+    global: Global = null;
+
     onLoad() {
         // cc.director.getPhysicsManager().enabled = true;
         cc.director.setDisplayStats(false);
@@ -22,6 +27,9 @@ export default class NewClass extends cc.Component {
     }
     start() {
         this.btnStart.on("touchstart", this.onStartGame, this);
+        this.btnStart.on(cc.Node.EventType.MOUSE_ENTER, this.global.setCursor, this);
+        this.btnStart.on(cc.Node.EventType.MOUSE_LEAVE, this.global.clearCursor, this);
+       
     }
 
     onStartGame() {
@@ -35,6 +43,9 @@ export default class NewClass extends cc.Component {
     }
     onDestroy() {
         this.btnStart.off("touchstart", this.onStartGame, this);
+        this.btnStart.off(cc.Node.EventType.MOUSE_ENTER, this.global.setCursor, this);
+        this.btnStart.off(cc.Node.EventType.MOUSE_LEAVE, this.global.clearCursor, this);       
+        this.global.clearCursor();
     }
 
 }

@@ -82,6 +82,9 @@
       },
       {
         "__id__": 26
+      },
+      {
+        "__id__": 27
       }
     ],
     "_prefab": null,
@@ -1063,6 +1066,18 @@
     "_enabled": true,
     "btnRestart": {
       "__id__": 21
+    },
+    "global": {
+      "__id__": 27
     }
+  },
+  {
+    "__type__": "ba334+LD31PjobBbPIqifuo",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 2
+    },
+    "_enabled": true
   }
 ]

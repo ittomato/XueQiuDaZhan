@@ -82,6 +82,9 @@
       },
       {
         "__id__": 18
+      },
+      {
+        "__id__": 25
       }
     ],
     "_prefab": null,
@@ -752,6 +755,9 @@
     },
     "btnMusic": {
       "__id__": 19
+    },
+    "global": {
+      "__id__": 25
     }
   },
   {
@@ -776,6 +782,9 @@
       },
       {
         "__id__": 23
+      },
+      {
+        "__id__": 24
       }
     ],
     "_prefab": null,
@@ -940,6 +949,27 @@
     },
     "btnMusicAtlas": {
       "__uuid__": "c546f6ac-a233-4e04-a2e6-4d4b31556768"
+    },
+    "global": {
+      "__id__": 24
     }
+  },
+  {
+    "__type__": "ba334+LD31PjobBbPIqifuo",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 19
+    },
+    "_enabled": true
+  },
+  {
+    "__type__": "ba334+LD31PjobBbPIqifuo",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 2
+    },
+    "_enabled": true
   }
 ]

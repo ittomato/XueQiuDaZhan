@@ -1,3 +1,5 @@
+import { Global } from "./Global";
+
 const { ccclass, property } = cc._decorator;
 
 @ccclass
@@ -54,13 +56,19 @@ export default class NewClass extends cc.Component {
     })
     audioFail: string = '';
 
+    @property(Global)
+    global: Global = null;
+
     // onLoad () {},
+
 
     start() {
 
         this.loadQuestion(this.currentQuestion);
         this.AnswerList.forEach(ele => {
             ele.node.on("touchstart", this.selectAnswer, this);
+            ele.node.on(cc.Node.EventType.MOUSE_ENTER, this.global.setCursor, this);
+            ele.node.on(cc.Node.EventType.MOUSE_LEAVE, this.global.clearCursor, this);
         })
     }
     loadQuestion(currentQuestion) {
@@ -74,9 +82,6 @@ export default class NewClass extends cc.Component {
                 })
                 this.currentAnswerOk = res[currentQuestion].answerOk;
                 this.isLoading = false;
-
-
-
             }
         })
     }
@@ -150,8 +155,9 @@ export default class NewClass extends cc.Component {
                 cc.log("游戏完成");
                 cc.director.loadScene("EndWin");
             }
-
         }, this)
-
+    }
+    onDestroy() {
+        this.global.clearCursor();
     }
 }
