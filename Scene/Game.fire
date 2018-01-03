@@ -278,7 +278,7 @@
     "_position": {
       "__type__": "cc.Vec2",
       "x": 0,
-      "y": 568
+      "y": 366
     },
     "_skewX": 0,
     "_skewY": 0,
@@ -295,9 +295,9 @@
       "__id__": 6
     },
     "_enabled": true,
-    "_custom": true,
+    "_custom": false,
     "_file": {
-      "__uuid__": "ec3790e2-bd9e-4add-8b6b-5779c42d6836"
+      "__uuid__": "f27a9f68-3c00-43b7-a1f3-b4323ffb702f"
     },
     "_texture": {
       "__uuid__": "67cd4d01-47c6-40c4-8ecc-d4e56cf34475"
@@ -363,8 +363,8 @@
     "_emitterMode": 0,
     "_gravity": {
       "__type__": "cc.Vec2",
-      "x": 0,
-      "y": -300
+      "x": -60,
+      "y": -160
     },
     "_speed": 0,
     "_speedVar": 0,
